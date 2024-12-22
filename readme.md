@@ -14,7 +14,7 @@ It is highly recommended that you create a virtual environment for the dependenc
 To create an environment with all the dependencies for this project, run
 
 ```bash
-conda create --name dwave_env --file requirements.txt
+conda env create -f environment.yml
 ```
 
 Then activate this environment with
